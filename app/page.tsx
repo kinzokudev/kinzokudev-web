@@ -12,7 +12,12 @@ export default function Home() {
           height={128}
           priority
         />
-        <h1>henlo :3</h1>
+        <h1 className="text-3xl">henlo :3</h1>
+        <ul className="list-inside text-base text-center space-y-2 sm:text-left font-[family-name:var(--font-inter)]">
+          <li>
+            <a href="/about">About</a>
+          </li>
+        </ul>
       </main>
     </div>
   );
