@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
         <h1 className="text-3xl">henlo :3</h1>
         <ul className="list-inside text-base text-center space-y-2 sm:text-left font-[family-name:var(--font-inter)]">
           <li>
-            <a href="/about">About</a>
+            <Link href="/about">About</Link>
           </li>
         </ul>
       </main>
